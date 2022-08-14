@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C161CA1C28A8FF5800D7943C /* car_list.json in Resources */ = {isa = PBXBuildFile; fileRef = C161CA1B28A8FF5800D7943C /* car_list.json */; };
+		C161CA1D28A8FF5800D7943C /* car_list.json in Resources */ = {isa = PBXBuildFile; fileRef = C161CA1B28A8FF5800D7943C /* car_list.json */; };
+		C1BD4CE028A2C932002EB4E2 /* Car_List_Challenge_CwCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD4CD028A2C930002EB4E2 /* Car_List_Challenge_CwCApp.swift */; };
+		C1BD4CE128A2C932002EB4E2 /* Car_List_Challenge_CwCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD4CD028A2C930002EB4E2 /* Car_List_Challenge_CwCApp.swift */; };
+		C1BD4CE228A2C932002EB4E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD4CD128A2C930002EB4E2 /* ContentView.swift */; };
+		C1BD4CE328A2C932002EB4E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD4CD128A2C930002EB4E2 /* ContentView.swift */; };
+		C1BD4CE428A2C932002EB4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BD4CD228A2C932002EB4E2 /* Assets.xcassets */; };
+		C1BD4CE528A2C932002EB4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BD4CD228A2C932002EB4E2 /* Assets.xcassets */; };
+		C1BD4D2228A2F85D002EB4E2 /* jsonManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD4D2128A2F85D002EB4E2 /* jsonManger.swift */; };
+		C1BD4D2328A2F85D002EB4E2 /* jsonManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD4D2128A2F85D002EB4E2 /* jsonManger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C161CA1B28A8FF5800D7943C /* car_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car_list.json; sourceTree = "<group>"; };
+		C1BD4CD028A2C930002EB4E2 /* Car_List_Challenge_CwCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_List_Challenge_CwCApp.swift; sourceTree = "<group>"; };
+		C1BD4CD128A2C930002EB4E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1BD4CD228A2C932002EB4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1BD4CD728A2C932002EB4E2 /* Car List Challenge CwC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car List Challenge CwC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BD4CDD28A2C932002EB4E2 /* Car List Challenge CwC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car List Challenge CwC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BD4CDF28A2C932002EB4E2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C1BD4D2128A2F85D002EB4E2 /* jsonManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonManger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1BD4CD428A2C932002EB4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BD4CDA28A2C932002EB4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1BD4CCA28A2C930002EB4E2 = {
+			isa = PBXGroup;
+			children = (
+				C1BD4CCF28A2C930002EB4E2 /* Shared */,
+				C1BD4CDE28A2C932002EB4E2 /* macOS */,
+				C1BD4CD828A2C932002EB4E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1BD4CCF28A2C930002EB4E2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C1BD4CD028A2C930002EB4E2 /* Car_List_Challenge_CwCApp.swift */,
+				C1BD4CD128A2C930002EB4E2 /* ContentView.swift */,
+				C1BD4D2128A2F85D002EB4E2 /* jsonManger.swift */,
+				C161CA1B28A8FF5800D7943C /* car_list.json */,
+				C1BD4CD228A2C932002EB4E2 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C1BD4CD828A2C932002EB4E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1BD4CD728A2C932002EB4E2 /* Car List Challenge CwC.app */,
+				C1BD4CDD28A2C932002EB4E2 /* Car List Challenge CwC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1BD4CDE28A2C932002EB4E2 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C1BD4CDF28A2C932002EB4E2 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1BD4CD628A2C932002EB4E2 /* Car List Challenge CwC (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BD4CE828A2C932002EB4E2 /* Build configuration list for PBXNativeTarget "Car List Challenge CwC (iOS)" */;
+			buildPhases = (
+				C1BD4CD328A2C932002EB4E2 /* Sources */,
+				C1BD4CD428A2C932002EB4E2 /* Frameworks */,
+				C1BD4CD528A2C932002EB4E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Car List Challenge CwC (iOS)";
+			productName = "Car List Challenge CwC (iOS)";
+			productReference = C1BD4CD728A2C932002EB4E2 /* Car List Challenge CwC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1BD4CDC28A2C932002EB4E2 /* Car List Challenge CwC (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BD4CEB28A2C932002EB4E2 /* Build configuration list for PBXNativeTarget "Car List Challenge CwC (macOS)" */;
+			buildPhases = (
+				C1BD4CD928A2C932002EB4E2 /* Sources */,
+				C1BD4CDA28A2C932002EB4E2 /* Frameworks */,
+				C1BD4CDB28A2C932002EB4E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Car List Challenge CwC (macOS)";
+			productName = "Car List Challenge CwC (macOS)";
+			productReference = C1BD4CDD28A2C932002EB4E2 /* Car List Challenge CwC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1BD4CCB28A2C930002EB4E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C1BD4CD628A2C932002EB4E2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C1BD4CDC28A2C932002EB4E2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C1BD4CCE28A2C930002EB4E2 /* Build configuration list for PBXProject "Car List Challenge CwC" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1BD4CCA28A2C930002EB4E2;
+			productRefGroup = C1BD4CD828A2C932002EB4E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1BD4CD628A2C932002EB4E2 /* Car List Challenge CwC (iOS) */,
+				C1BD4CDC28A2C932002EB4E2 /* Car List Challenge CwC (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1BD4CD528A2C932002EB4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C161CA1C28A8FF5800D7943C /* car_list.json in Resources */,
+				C1BD4CE428A2C932002EB4E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BD4CDB28A2C932002EB4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C161CA1D28A8FF5800D7943C /* car_list.json in Resources */,
+				C1BD4CE528A2C932002EB4E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1BD4CD328A2C932002EB4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BD4CE228A2C932002EB4E2 /* ContentView.swift in Sources */,
+				C1BD4D2228A2F85D002EB4E2 /* jsonManger.swift in Sources */,
+				C1BD4CE028A2C932002EB4E2 /* Car_List_Challenge_CwCApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BD4CD928A2C932002EB4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BD4CE328A2C932002EB4E2 /* ContentView.swift in Sources */,
+				C1BD4D2328A2F85D002EB4E2 /* jsonManger.swift in Sources */,
+				C1BD4CE128A2C932002EB4E2 /* Car_List_Challenge_CwCApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1BD4CE628A2C932002EB4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1BD4CE728A2C932002EB4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C1BD4CE928A2C932002EB4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ53D5KJ7M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bernkra.Car-List-Challenge-CwC";
+				PRODUCT_NAME = "Car List Challenge CwC";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1BD4CEA28A2C932002EB4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ53D5KJ7M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bernkra.Car-List-Challenge-CwC";
+				PRODUCT_NAME = "Car List Challenge CwC";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1BD4CEC28A2C932002EB4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ53D5KJ7M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bernkra.Car-List-Challenge-CwC";
+				PRODUCT_NAME = "Car List Challenge CwC";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C1BD4CED28A2C932002EB4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ53D5KJ7M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bernkra.Car-List-Challenge-CwC";
+				PRODUCT_NAME = "Car List Challenge CwC";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1BD4CCE28A2C930002EB4E2 /* Build configuration list for PBXProject "Car List Challenge CwC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BD4CE628A2C932002EB4E2 /* Debug */,
+				C1BD4CE728A2C932002EB4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BD4CE828A2C932002EB4E2 /* Build configuration list for PBXNativeTarget "Car List Challenge CwC (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BD4CE928A2C932002EB4E2 /* Debug */,
+				C1BD4CEA28A2C932002EB4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BD4CEB28A2C932002EB4E2 /* Build configuration list for PBXNativeTarget "Car List Challenge CwC (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BD4CEC28A2C932002EB4E2 /* Debug */,
+				C1BD4CED28A2C932002EB4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1BD4CCB28A2C930002EB4E2 /* Project object */;
+}
