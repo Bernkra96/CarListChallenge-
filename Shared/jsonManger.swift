@@ -7,7 +7,7 @@
 import Foundation
 
 // data save of Car
-struct Car:  Codable  ,    Identifiable    {
+struct Car:  Codable    {
     var consList: [String]
     var customerPrice: Int
     var make: String
@@ -18,7 +18,7 @@ struct Car:  Codable  ,    Identifiable    {
     
   
     
-    let id: String
+
     static let allCars : [Car] = Bundle.main.decode(file: "car_list.json")
     static let CarTest: Car = allCars [0]
     static var Car :  [Car]?

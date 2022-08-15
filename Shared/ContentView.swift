@@ -10,25 +10,31 @@ import SwiftUI
 
 
 struct ContentView: View {
-   
-    var cars: [Car]  = Car.Car
-    var body: some View {
     
-     
-            // List dos not work
-        List(cars, children: \.cars) { row in
+    private var cars: [Car]  = Car.allCars
+    
+    var body: some View {
+        
+        VStack {
             
+            
+            List {
+                ForEach(cars, id: \.model)
                 
+                { cars in
+                    
+                    Text (cars.make)
+                    
+                }
             }
         }
-    
-    
-}
-
-
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
+    
 }
+    
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+    }
