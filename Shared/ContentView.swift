@@ -15,18 +15,18 @@ struct ContentView: View {
     
     var body: some View {
         
-        
-        
+
         VStack {
             Text ("Car List ")
                 .font(.title)
                 .fontWeight(.bold)
             
-            List {
+            List {                                                               // Liststard
                 ForEach(cars, id: \.model) { cars in
                     VStack (spacing: 8) {
                         
-                        
+                        //        Car Image and Name / Make
+                                
                         
                         HStack {
                             Image ("\(cars.model)")
@@ -42,7 +42,7 @@ struct ContentView: View {
                         }
                         
                         
-                        VStack() {
+                        VStack() {           //  Pricelist
                             
                             Text (" Customer Price.: \(cars.customerPrice) $ ")
                                 .font(.body)
@@ -57,9 +57,9 @@ struct ContentView: View {
                         }
                         
                         
-                        VStack (alignment: .center, spacing: 4.0) {
-                            let cons = cars.consList.joined(separator: " " )
-                            let pros = cars.prosList.joined(separator: " " )
+                        VStack (alignment: .center, spacing: 4.0) {      //pos and Cons
+                            let cons = cars.consList.joined(separator: " " ) // Car Cons list to fit in Text
+                            let pros = cars.prosList.joined(separator: " " ) // // Car Pros list to fit in Text
                             
                             HStack {
                                 Text("Car Pros")
@@ -75,7 +75,7 @@ struct ContentView: View {
                                 
                                 
                             }
-                            Text (String ("\(pros)"))
+                            Text (String ("\(pros)")) // Pros from let
                                 .font(.body)
                                 .fontWeight(.medium)
                                 .multilineTextAlignment(.center)
@@ -95,7 +95,7 @@ struct ContentView: View {
                                 
                                 
                             }
-                            Text (String ("\(cons)"))
+                            Text (String ("\(cons)"))   //cons from list
                                 .fontWeight(.medium)
                                 .multilineTextAlignment(.center)
                                 .lineLimit(12)
@@ -108,8 +108,8 @@ struct ContentView: View {
                         
                         VStack {
                             
-                            HStack {
-                                
+                            HStack { 
+//                                Dynamig star view , switches stars depading on the rading
                                 Image(systemName: cars.rating < 1 ? "star" :  "star.fill" )
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
