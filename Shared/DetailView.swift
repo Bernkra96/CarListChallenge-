@@ -12,7 +12,7 @@ struct DetailView: View {
     
     var body: some View {
         
-        HStack {
+        HStack {                                // Car image / make and model
             Image ("\(car.model)")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
@@ -26,7 +26,7 @@ struct DetailView: View {
         }
     
         
-        
+//        price
         VStack() {
             
             Text (" Customer Price.: \(car.customerPrice) $ ")
@@ -42,9 +42,9 @@ struct DetailView: View {
         }
         
         
-        VStack (alignment: .center, spacing: 4.0) {
-            let cons = car.consList.joined(separator: " " )
-            let pros = car.prosList.joined(separator: " " )
+        VStack (alignment: .center, spacing: 4.0) { // pors and Cons list
+            let cons = car.consList.joined(separator: " " ) // cons list saver
+            let pros = car.prosList.joined(separator: " " )   // pro list saver
             
             HStack {
                 Text("Car Pros")
@@ -60,7 +60,7 @@ struct DetailView: View {
                 
                 
             }
-            Text (String ("\(pros)"))
+            Text (String ("\(pros)")) //pulls pros list
                 .font(.body)
                 .fontWeight(.medium)
                 .multilineTextAlignment(.center)
@@ -80,7 +80,7 @@ struct DetailView: View {
                 
                 
             }
-            Text (String ("\(cons)"))
+            Text (String ("\(cons)")) //pulls cons list
                 .fontWeight(.medium)
                 .multilineTextAlignment(.center)
                 .lineLimit(12)
@@ -94,7 +94,7 @@ struct DetailView: View {
         VStack {
             
             HStack {
-                
+//                Star display uptades automatic
                 Image(systemName: car.rating < 1 ? "star" :  "star.fill" )
                     .resizable()
                     .aspectRatio(contentMode: .fit)
